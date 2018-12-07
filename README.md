@@ -45,7 +45,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-- Make sure your application Info.plist contains the following 'App Transport Security Settings'.
+- Make sure your application Info.plist contains the following 'App Transport Security Settings'. This is done because the SDK is running a local webserver that does not support HTTPS. However all external communications are using HTTPS.
 ```
 <key>NSAppTransportSecurity</key>
 <dict>
@@ -55,8 +55,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
   <true/>
 </dict>
 ```
-This is done because the SDK is running a local webserver that does not support HTTPS. However all external communications are
-using HTTPS.
 
 - Make sure you've linked the following iOS frameworks to your application
 ```
