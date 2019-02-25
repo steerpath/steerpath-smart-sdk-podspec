@@ -12,7 +12,7 @@ Copyright Steerpath Ltd. 2018. All rights reserved
   use_frameworks!  
 
   target 'YourAppTargetHere' do
-    pod 'SteerpathSmartSDK', '1.0.1.4'
+    pod 'SteerpathSmartSDK', '1.0.1.6'
   end  
 ```
 - Navigate to your project root directory and type:
@@ -83,27 +83,32 @@ SteerpathSmartSDK framework classes can be included by adding the following to y
 - Follow the instructions in the repository and build one of the examples projects.
 - This will download the required CocoaPod dependencies to your system.
 
-2. Replace the **version.txt** and **SteerpathSmartSDK.podspec.json** files with your updated files.
-3. Find out the local CocoaPod repository name for this repository. You can use the following commands to find out.
-
+2. Replace the **SteerpathSmartSDK.podspec.json** file with your updated file.
+3. Run the following command in Terminal:
 ```
-cd ~/.cocoapods/repos/
-ls
+./publish.sh
 ```
-
-4. Run the following script.
-
+4. You will be prompted with a list of local CocoaPod repositories similar to the one below. Select (type/copy paste) the repository you're updating and hit enter.
 ```
-./update_podspec.sh
-```
+Attempting to list local cocoapod repositories: 
 
-5. Run the following command by replacing the REPO_NAME with the repository name you found in step 2.
+bitbucket-nimbledevices-steerpath-sdk-ios-podspec
+master
+bitbucket-nimbledevices-steerpath-smart-sdk-podspec
+steerpath-map-sdk-bitbucket
 
-```
-pod repo push REPO_NAME SteerpathSmartSDK.podspec.json
+
+Select repository for publish: 
 ```
 
-6. Pull and push the changes into git.
+5. You will need to confirm the repository with the next prompt.
+```
+Are you sure you want to publish to bitbucket-nimbledevices-steerpath-smart-sdk-podspec? (y/n): 
+```
+
+6. Publishing/uploading will run. After completion pull and push the changes into git.
+
+7. Great success!
 
 # Feedback, Support & Suggestions
 * Contact: support@steerpath.com
