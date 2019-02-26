@@ -79,6 +79,7 @@ SteerpathSmartSDK framework classes can be included by adding the following to y
 # How to update PodSpec (for Steerpath Developers)
 
 1. If this is your first time updating the PodSpec you need to do the following:
+
 - Clone the examples repository: https://bitbucket.org/nimbledevices/steerpath-smart-sdk-ios-examples
 - Follow the instructions in the repository and build one of the examples projects.
 - This will download the required CocoaPod dependencies to your system.
