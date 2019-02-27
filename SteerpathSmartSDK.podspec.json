@@ -8,7 +8,7 @@
       "type": "Copyright"
    }, 
    "source": {
-      "http": "https://s3-eu-west-1.amazonaws.com/steerpath/ios/releases/smart-sdk/steerpath-ios-smart-sdk-1.0.1.7.zip", 
+      "http": "https://s3-eu-west-1.amazonaws.com/steerpath/ios/releases/smart-sdk/steerpath-ios-smart-sdk-1.0.1.8.zip", 
       "flatten": true
    }, 
    "requires_arc": true, 
@@ -17,7 +17,7 @@
    "platforms": {
       "ios": "9.0"
    }, 
-   "version": "1.0.1.7", 
+   "version": "1.0.1.8", 
    "frameworks": [
       "CoreLocation", 
       "CoreBluetooth", 
