@@ -12,7 +12,7 @@ Copyright Steerpath Ltd. 2018. All rights reserved
   use_frameworks!  
 
   target 'YourAppTargetHere' do
-    pod 'SteerpathSmartSDK', '1.0.2.4'
+    pod 'SteerpathSmartSDK', '1.0.2.6'
   end  
 ```
 - Navigate to your project root directory and type:
