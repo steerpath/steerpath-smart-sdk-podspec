@@ -1,0 +1,37 @@
+{
+   "libraries": [
+      "z"
+   ], 
+   "description": "With Steerpath, we set out to do the impossible: engineer a full-featured indoor navigation system into the easiest and most powerful package ever. That meant reimagining every element to make it not only to have a simple API and full offline capabilities but also better throughout. The result is more than just a new SDK. It\u2019s the future of personal wayfinding.", 
+   "license": {
+      "text": "Copyright 2018 Steerpath", 
+      "type": "Copyright"
+   }, 
+   "source": {
+      "http": "https://s3-eu-west-1.amazonaws.com/steerpath/ios/releases/smart-sdk/steerpath-ios-smart-sdk-1.0.3.1.zip", 
+      "flatten": true
+   }, 
+   "requires_arc": true, 
+   "summary": "Steerpath Smart SDK - Indoor Positioning and Navigation SDK", 
+   "vendored_frameworks": "dynamic/SteerpathSmartSDK.framework", 
+   "platforms": {
+      "ios": "9.0"
+   }, 
+   "version": "1.0.3.1", 
+   "frameworks": [
+      "CoreLocation", 
+      "CoreBluetooth", 
+      "CoreMotion"
+   ], 
+   "authors": {
+      "Steerpath": "support@steerpath.com"
+   }, 
+   "module_name": "SteerpathSmartSDK", 
+   "homepage": "https://www.steerpath.com", 
+   "dependencies": {
+      "Steerpath-Map-SDK": [
+         "1.1.7"
+      ]
+   }, 
+   "name": "SteerpathSmartSDK"
+}
