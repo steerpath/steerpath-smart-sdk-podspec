@@ -1,6 +1,6 @@
 # Steerpath Smart SDK for iOS.
 
-Copyright Steerpath Ltd. 2018. All rights reserved
+Copyright Steerpath Ltd. 2019. All rights reserved
 
 # How to install Steerpath Smart SDK via CocoaPods
 - Install CocoaPods http://cocoapods.org/
@@ -12,7 +12,7 @@ Copyright Steerpath Ltd. 2018. All rights reserved
   use_frameworks!  
 
   target 'YourAppTargetHere' do
-    pod 'SteerpathSmartSDK', '1.0.3.0'
+    pod 'SteerpathSmartSDK', '1.0.3.2'
   end  
 ```
 - Navigate to your project root directory and type:
@@ -91,7 +91,7 @@ SteerpathSmartSDK framework classes can be included by adding the following to y
 ```
 4. You will be prompted with a list of local CocoaPod repositories similar to the one below. Select (type/copy paste) the repository you're updating and hit enter.
 ```
-Attempting to list local cocoapod repositories: 
+Attempting to list local cocoapod repositories:
 
 bitbucket-nimbledevices-steerpath-sdk-ios-podspec
 master
@@ -99,12 +99,12 @@ bitbucket-nimbledevices-steerpath-smart-sdk-podspec
 steerpath-map-sdk-bitbucket
 
 
-Select repository for publish: 
+Select repository for publish:
 ```
 
 5. You will need to confirm the repository with the next prompt.
 ```
-Are you sure you want to publish to bitbucket-nimbledevices-steerpath-smart-sdk-podspec? (y/n): 
+Are you sure you want to publish to bitbucket-nimbledevices-steerpath-smart-sdk-podspec? (y/n):
 ```
 
 6. Publishing/uploading will run. After completion pull and push the changes into git.
