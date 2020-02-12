@@ -1,6 +1,6 @@
 {
    "name": "SteerpathSmartSDK",
-   "version": "1.10.10",
+   "version": "1.10.11",
    "summary": "Steerpath Smart SDK - Indoor Positioning and Navigation SDK",
    "description": "With Steerpath, we set out to do the impossible: engineer a full-featured indoor navigation system into the easiest and most powerful package ever. That meant reimagining every element to make it not only to have a simple API and full offline capabilities but also better throughout. The result is more than just a new SDK. It\u2019s the future of personal wayfinding.",
    "homepage": "https://www.steerpath.com",
@@ -17,7 +17,7 @@
    "vendored_frameworks": "dynamic/SteerpathSmartSDK.framework",
    "module_name": "SteerpathSmartSDK",
    "source": {
-      "http": "https://s3-eu-west-1.amazonaws.com/steerpath/ios/releases/smart-sdk/steerpath-ios-smart-sdk-1.10.10.zip",
+      "http": "https://s3-eu-west-1.amazonaws.com/steerpath/ios/releases/smart-sdk/steerpath-ios-smart-sdk-1.10.11.zip",
       "flatten": true
    },
    "frameworks": [
