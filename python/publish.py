@@ -16,9 +16,9 @@ if error is not 0:
 
 print("\n")
 #Show prompt for selecting repository
-repository = raw_input("Select repository for publish: ")
+repository = input("Select repository for publish: ")
 #Confirmation prompt
-confirm = raw_input("Are you sure you want to publish to " + repository + "? (y/n): ")
+confirm = input("Are you sure you want to publish to " + repository + "? (y/n): ")
 if confirm != 'y':
    sys.exit("Canceled publish process")
 
