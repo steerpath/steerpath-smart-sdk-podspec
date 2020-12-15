@@ -27,7 +27,7 @@
    ],
    "dependencies": {
       "Steerpath-Map-SDK": [
-         "1.1.20"
+         "1.1.23"
       ]
    },
    "libraries": [
