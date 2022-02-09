@@ -38,15 +38,16 @@ if podspecJson is None:
 
 sdkVersion = podspecJson["version"]
 
+#Attempt to push into CocoaPod repository
+pushCocoapod = "pod repo push " + repository + " " + podspecFileName + " --verbose"
+error = subprocess.call(pushCocoapod, cwd=os.getcwd(), shell=True)
+if error is not 0:
+   sys.exit("ERROR! Failed to push changes into CocoaPod repository " + repository)
+
 #Commit and tag release version
 createTag = "git add -A && git commit -m 'Release " + sdkVersion + "'; git tag " + sdkVersion
 error = subprocess.call(createTag, cwd=os.getcwd(), shell=True)
 if error is not 0:
    sys.exit("ERROR! Failed to tag version " + sdkVersion)
 
-#Attempt to push into CocoaPod repository
-pushCocoapod = "pod repo push " + repository + " " + podspecFileName
-error = subprocess.call(pushCocoapod, cwd=os.getcwd(), shell=True)
-if error is not 0:
-   sys.exit("ERROR! Failed to push changes into CocoaPod repository " + repository)
    
