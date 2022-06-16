@@ -4,4 +4,4 @@ set -o pipefail
 set -u
 
 #Run the python publish script
-python python/publish.py
+python3 python/publish.py
